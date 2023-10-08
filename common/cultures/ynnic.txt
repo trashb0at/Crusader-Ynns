@@ -1,0 +1,80 @@
+ynnic = {
+	alternate_start = {
+		NOR = {
+			has_alternate_start_parameter = { key = special_culture value = animal_world }
+			has_alternate_start_parameter = { key = special_culture value = alien_world }
+			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
+		}
+	}
+	graphical_cultures = { easterngfx }
+
+	sarda = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.4 0.6 0.5 }
+		
+		male_names = {
+			Adam_Adam Alexandr_Alexander Alexej_Alexis Alfr?d_Alfred Ambro?_Ambrose Andrej_Andrew Anton?n_Anthony Arno?t_Ernest Artur_Arthur 
+			Bartolomej_Bartholomew Bavor Bedrich_Frederick Bene?_Benedict Bernard_Bernard Bla?ej_Blaise Bohuslav_Boguslaw Boleslav_Boleslav Borijov_Borijov Boris_Boris Bretislav_Bretislaus Bruno_Bruno 
+			Castolov Cenek_Vincent Ctirad Cyril_Cyril 
+			Dalibor_Dalibor Daniel_Daniel David_David Denis_Dionysus Dominik_Dominic Drahoslav_Dragoslav Du?an_Dusan  
+			Edvard_Edward Eli??_Elijah Emil_Emil Erik_Erik Ev?en_Eugene
+			Ferdinand_Ferdinand Filip_Phillip Flori?n_Florian Franti?ek_Francis
+			Gabriel_Gabriel Gustav_Gustav 
+			Hanu?_John Havel_Gallus Herbert_Herbert Honza_John Hynek_Henry 
+			Ign?c_Ignatius Igor_Ingvar
+			J?chym_Joachim Jakub_Jacob Jan_John Jarom?r_Jaromir Jaroslav_Jaroslav Jeron?m_Jerome Jindrich_Henry Jir?_George Jon??_Jonah Josef_Joseph Julius_Julius 
+			Karel_Charles Klement_Clement Konr?d_Konrad Kristi?n_Christian Kry?tof_Christopher 
+			Ladislav_Vladislav Leopold_Leopold Leo?_Leo Lubom?r_Lubomir Ludv?k_Louis Luk??_Luke
+			Marcel_Marcellus Marek_Mark Martin_Martin Matou?_Matthew Maxim_Maximus Metodej_Methodius Michal_Michael Mikol??_Nicholas Miroslav_Miroslav 
+			Oj?r Oldrich_Ulrich Oliver_Oliver Ota_Otto 
+			Patrik_Patrick Pavel_Paul Petr_Peter Premysl_Premysl Prokop_Procopius 
+			Ren?_Renatus Robert_Robert Roman_Roman Rostislav_Rostislav 
+			Samuel_Samuel Sebastian_Sebastian Silvestr_Silvester ?imon_Simon Slavom?r_Slavomir Sobieslav_Sobeslaus ?tep?n_Stephen Svatopluk_Svatopluk 
+			Tade??_Thaddeus Teodor_Theodore Tobi??_Tobias 
+			V?clav_Vaclav Valentin_Valentine Vavrinec_Lawrence Viktor_Victor Vil?m_William V?tek_Guy Vladim?r_Vladimir Vladislav_Vladislav Vojtech_Vojtech Vratislav_Vratislav Vsebor_Vsebor
+			 
+		}
+		female_names = {
+			Adl?a_Adel Adriana_Adriana Ag?ta_Agatha Alexandra_Alexandra Alice_Alice Al?beta_Elizabeth Anast?zie_Anastasia Andela_Angela Andrea_Andrea Ane?ka_Agnes Anna_Anna Antonie_Antonia 
+			Barbora_Barbara Bedri?ka_Frederique Blanka_Blanche Bla?ena Bohuslava Boleslava Brigita_Bridget Bronislava 
+			Cec?lie_Cecilia
+			Daniela_Daniela Darja_Daria Diana_Diana Dobromila Dobroslava Dorota_Dorothy Drahom?ra Drahoslava 
+			Edita_Edith Ema_Emma Em?lie_Emily Erika_Erika Ester_Esther Eva_Eve Ev?enie_Eugenia 
+			Franti?ka_Frances
+			Gertruda_Gertrude 
+			Hana_Hannah Hedvika_Hedwig Helena_Helen 
+			Irena_Irene Ivona_Yvonne
+			Jana_Jane Jaroslava Jirina_Georgia Jitka_Judith Johana_Jane Josef?na_Josephine Julie_Julia Just?na_Justina 
+			Karol?na_Caroline Katerina_Catherine Kl?ra_Clara Klaudie_Claudia Korn?lie_Cornelia Krist?na_Christina 
+			Laura_Laura Lea_Leah Libena Lucie_Lucia 
+			Magdal?na_Madeline Marie_Mary Marina_Marina Mark?ta_Margaret Marta_Martha Matylda_Matilda Michala_Michelle Miriam_Mary Monika_Monica 
+			Nat?lie_Natalie Nikol_Nichole
+			Oldri?ka_Ulrike Olga_Helga Olivie_Olivia 
+			Patricie_Patricia Pavla_Paula Petra_Petra 
+			Regina_Regina Ren?ta_Renata R?t_Ruth
+			Sandra_Alexandra S?ra_Sarah ?arlota_Charlotte ?imona_Simone Stanislava ?tep?nka_Stephanie Sylvie_Silvia
+			Tamara_Tamar Tat?na_Tatiana Tereza_Theresa
+			Valent?na_Valentina Val?rie_Valeria Vanesa_Vanessa Vera_Vera Veronika_Veronia Viktorie_Victoria Vilem?na_Willhelmina Viola_Yolanda Vladislava 
+			Xenie_Xenia
+			Zdislava Zoe_Zoe ?ofie_Sophia Zuzanka_Susan
+		}
+		
+		from_dynasty_prefix = "z "
+		male_patronym = "ovic"
+		female_patronym = "evic"
+		prefix = no
+		feminist = yes
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+}

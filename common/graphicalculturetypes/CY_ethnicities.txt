@@ -1,0 +1,3 @@
+ynnicgfx = {
+	skin_tone = 0
+}
