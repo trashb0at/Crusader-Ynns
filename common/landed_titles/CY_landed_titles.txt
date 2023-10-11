@@ -1,0 +1,34 @@
+###ÄNSI
+#CRUSADER YNNS TITLES
+e_ynnic_empire = {
+	color={ 63 154 45 }
+	color2={ 255 255 255 }
+
+	capital = 1 # c_arverynn
+
+	k_sarda = {
+		color={ 63 154 45 }
+		color2={ 255 255 255 }
+
+		capital = 1 # c_arverynn
+		d_arverynn = {
+			color={ 43 174 35 }
+			color2={ 255 255 255 }
+
+			capital = 1 # c_arverynn
+
+			c_arverynn= { # 2404
+				color={ 33 184 30 }
+				color2={ 255 255 255 }
+
+				b_teal_keep = {}
+				b_arverynn1 = {}
+				b_arverynn2 = {}
+				b_arverynn3 = {}
+				b_arverynn4 = {}
+				b_arverynn5 = {}
+				b_arverynn6 = {}
+			}
+		}
+	}
+}

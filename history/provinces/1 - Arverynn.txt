@@ -1,0 +1,14 @@
+# 1 - Arverynn
+
+# County Title
+title = c_arverynn
+
+# Settlements
+max_settlements = 7
+b_arverynn = castle
+
+# Misc
+culture = sarda
+religion = NA
+
+# History
