@@ -17,7 +17,7 @@ e_ynnic_empire = {
 
 			capital = 1 # c_arverynn
 
-			c_arverynn= { # 2404
+			c_arverynn = { # 2404
 				color={ 33 184 30 }
 				color2={ 255 255 255 }
 
