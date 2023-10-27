@@ -5,10 +5,10 @@ title = c_arverynn
 
 # Settlements
 max_settlements = 7
-b_teal_keep = castle
+b_arverynn1 = castle
 
 # Misc
 culture = sarda
-religion = 
+religion = ynn_river_worship
 
 # History
