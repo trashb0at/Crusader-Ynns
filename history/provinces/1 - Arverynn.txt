@@ -9,6 +9,6 @@ b_arverynn1 = castle
 
 # Misc
 culture = sarda
-religion = ynn_river_worship
+religion = catholic
 
 # History
