@@ -21,13 +21,13 @@ e_ynnic_empire = {
 				color={ 33 184 30 }
 				color2={ 255 255 255 }
 
-				b_teal_keep = {}
 				b_arverynn1 = {}
 				b_arverynn2 = {}
 				b_arverynn3 = {}
 				b_arverynn4 = {}
 				b_arverynn5 = {}
 				b_arverynn6 = {}
+				b_arverynn7 = {}
 			}
 		}
 	}
