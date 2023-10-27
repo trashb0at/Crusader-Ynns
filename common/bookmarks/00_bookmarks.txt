@@ -1,0 +1,27 @@
+bm_1205 = {
+	name = "bm_1205_ERA"
+	desc = "bm_1205_ERA_INFO"
+	date = 1205.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_4
+	custom_start = yes				## Choosing "Custom Start" will open this bookmark
+	
+	selectable_character = {
+		id = 1
+		age = 25
+		name = ERA_CHAR_NAME_1
+		title = d_arverynn
+		title_name = d_arverynn
+			dlc = "The Old Gods"
+		
+		character = {
+			dna = ggzphbapour
+			properties = mige0d00000000000000000000000000000000
+			religion="catholic"
+			culture="sarda"
+			government = feudal_government
+			dynasty=1
+		}
+	}
+}

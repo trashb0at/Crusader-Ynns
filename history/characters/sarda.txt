@@ -1,0 +1,12 @@
+1 ={ 	
+    name="Testelf"
+	religion="catholic"
+	culture="sarda"	
+    dynasty="1"
+	1180.1.1={
+		birth=yes
+	}	
+	1260.1.1={
+		death=yes
+	}
+}
