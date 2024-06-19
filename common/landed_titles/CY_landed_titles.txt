@@ -1,12 +1,12 @@
 ###ÄNSI
 #CRUSADER YNNS TITLES
-e_ynnic_empire = {
+e_sarda = {
 	color={ 63 154 45 }
 	color2={ 255 255 255 }
 
 	capital = 1 # c_arverynn
 
-	k_sarda = {
+	k_arverynn = {
 		color={ 63 154 45 }
 		color2={ 255 255 255 }
 
