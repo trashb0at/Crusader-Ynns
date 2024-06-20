@@ -1,3 +1,0 @@
-#elfgfx = {
-#	skin_tone = 1
-#}

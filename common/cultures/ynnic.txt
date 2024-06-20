@@ -6,10 +6,10 @@ ynnic = {
 			has_alternate_start_parameter = { key = special_culture value = animal_alien_world }
 		}
 	}
-	graphical_cultures = { westernslavicgfx westerngfx }
+	graphical_cultures = { sardagfx westerngfx }
 
 	sarda = {
-		graphical_cultures = { westernslavicgfx westerngfx }
+		graphical_cultures = { sardagfx westerngfx }
 		
 		color = { 0.4 0.6 0.5 }
 		

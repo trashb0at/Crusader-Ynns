@@ -1,1 +1,1 @@
-#graphical_cultures = { elfgfx }
+graphical_cultures = { sardagfx }
