@@ -1,0 +1,14 @@
+# 2 - Vels Bacar
+
+# County Title
+title = c_vels_bacar
+
+# Settlements
+max_settlements = 1
+b_vels_bacar = castle
+
+# Misc
+culture = yrisarda
+religion = imperial_cult
+
+# History

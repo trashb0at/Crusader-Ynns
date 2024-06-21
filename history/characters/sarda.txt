@@ -3,7 +3,19 @@
 	religion="imperial_cult"
 	culture="yrisarda"	
     dynasty="1"
-	1180.1.1={
+	1180.6.6={
+		birth=yes
+	}	
+	1260.1.1={
+		death=yes
+	}
+}
+2 ={
+	name="Ultaran"
+	religion="imperial_cult"
+	culture="yrisarda"	
+    dynasty="2"
+	1162.5.7={
 		birth=yes
 	}	
 	1260.1.1={
