@@ -2,7 +2,7 @@
     name="Serdondal"
 	religion="imperial_cult"
 	culture="yrisarda"	
-    dynasty="1"
+    dynasty=1
 	1180.6.6={
 		birth=yes
 	}	
@@ -14,7 +14,7 @@
 	name="Ultaran"
 	religion="imperial_cult"
 	culture="yrisarda"	
-    dynasty="2"
+    dynasty=2
 	1162.5.7={
 		birth=yes
 	}	
