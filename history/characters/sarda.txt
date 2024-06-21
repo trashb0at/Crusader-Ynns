@@ -1,7 +1,7 @@
 1 ={ 	
     name="Serdondal"
-	religion="catholic"
-	culture="sarda"	
+	religion="imperial_cult"
+	culture="yrisarda"	
     dynasty="1"
 	1180.1.1={
 		birth=yes

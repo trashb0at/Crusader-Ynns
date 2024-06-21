@@ -1,0 +1,38 @@
+ynnic = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 1 # convert with high ai_zeal
+	ai_convert_other_group = 2 # convert with high ai_zeal
+	
+	color = { 0.8 0.8 0.6 }
+	imperial_cult = { 
+		graphical_culture = westerngfx
+
+		icon = 111
+		heresy_icon = 111
+		
+		color = { 48 98 124 }
+		
+		crusade_name = CRUSADE
+		crusade_cb = crusade
+		scripture_name = VELIKVAB_ENCHIRIDION
+		priest_title = RIVER_PRIEST
+		
+		high_god_name = GOD_THE_YNN_RIVER
+		
+		god_names = {
+			GOD_THE_YNN_RIVER GOD_ANTLER_HORSE GOD_SNAPPING_OTTER GOD_SABERTOOTH_TIGER GOD_WOOLY_RHINO GOD_DIREWOLF GOD_GIANT_BEAVER GOD_YNNEA_PIG GOD_FOUR_HORNED_SHEEP GOD_THUNDERBIRD GOD_WHITETAIL_FOX GOD_POSKAWA_WHAE GOD_MISHIPESHU GOD_STONE_FISH GOD_WATER_SERPENT GOD_OWLBEAST GOD_DRAGON
+		}
+		evil_god_names = {
+			FEY DROZMAGOG THE_CURSED_BOND WENDIGOS
+		}
+		character_modifier = {
+		}
+		aggression = 0.9
+		allow_rivermovement = yes
+	}
+}

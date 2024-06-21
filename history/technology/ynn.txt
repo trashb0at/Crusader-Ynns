@@ -5,7 +5,7 @@ technology = {
 	}
 
 
-	2555 = {
+	1205 = {
 		military = 1.5
 		economy = 1.5
 		culture = 2.0

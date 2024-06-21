@@ -19,7 +19,7 @@ bm_1205 = {
 			dna = ggzphbapour
 			properties = mige0d00000000000000000000000000000000
 			religion="catholic"
-			culture="sarda"
+			culture="yrisarda"
 			government = feudal_government
 			dynasty=1
 		}

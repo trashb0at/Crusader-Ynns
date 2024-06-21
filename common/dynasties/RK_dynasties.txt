@@ -1,1 +1,1 @@
-1 = { name="Lynohur" culture=sarda  }
+1 = { name="Lynohur" culture=yrisarda  }

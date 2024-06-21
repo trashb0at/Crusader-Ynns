@@ -8,7 +8,7 @@ ynnic = {
 	}
 	graphical_cultures = { sardagfx westerngfx }
 
-	sarda = {
+	yrisarda = {
 		graphical_cultures = { sardagfx westerngfx }
 		
 		color = { 0.4 0.6 0.5 }

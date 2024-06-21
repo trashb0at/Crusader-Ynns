@@ -8,7 +8,7 @@ max_settlements = 7
 b_arverynn1 = castle
 
 # Misc
-culture = sarda
-religion = catholic
+culture = yrisarda
+religion = imperial_cult
 
 # History
