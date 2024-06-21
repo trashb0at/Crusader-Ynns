@@ -29,6 +29,61 @@ e_sarda = {
 				b_arverynn6 = {}
 				b_arverynn7 = {}
 			}
+			c_vels_bacar = {
+				color={ 40 190 30 }
+				color2={ 255 255 255 }
+
+				b_vels_bacar = {}
+				b_dvasacha = {}
+				b_cesta_brat = {}
+				b_palcesta = {}
+				b_vels_bacar5 = {}
+				b_vels_bacar6 = {}
+				b_vels_bacar7 = {}
+			}
+			c_thromshana = {
+				color={ 40 190 30 }
+				color2={ 255 255 255 }
+
+				b_thromshana1 = {}
+				b_thromshana2 = {}
+				b_thromshana3 = {}
+				b_thromshana4 = {}
+				b_thromshana5 = {}
+				b_thromshana6 = {}
+				b_thromshana7 = {}
+			}
+		}
+		d_vels_amsto = {
+			color = { 189 27 99 }
+			color2={ 255 255 255 }
+
+			capital = 13 # Vels Amsto
+
+			c_vels_amsto = {
+				color={ 40 190 30 }
+				color2={ 255 255 255 }
+
+				b_vels_amsto1 = {}
+				b_vels_amsto2 = {}
+				b_vels_amsto3 = {}
+				b_vels_amsto4 = {}
+				b_vels_amsto5 = {}
+				b_vels_amsto6 = {}
+				b_vels_amsto7 = {}
+			}
+			c_leshtrom = {
+				color={ 40 190 30 }
+				color2={ 255 255 255 }
+
+				b_leshtrom1 = {}
+				b_leshtrom2 = {}
+				b_leshtrom3 = {}
+				b_leshtrom4 = {}
+				b_leshtrom5 = {}
+				b_leshtrom6 = {}
+				b_leshtrom7 = {}
+			}
 		}
 	}
 }
