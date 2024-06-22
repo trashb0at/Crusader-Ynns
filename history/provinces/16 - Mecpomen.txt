@@ -1,0 +1,14 @@
+# 16 - Mecpomen
+
+# County Title
+title = c_mecpomen
+
+# Settlements
+max_settlements = 1
+b_mecpomen = castle
+
+# Misc
+culture = yrisarda
+religion = imperial_cult
+
+# History

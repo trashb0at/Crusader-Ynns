@@ -29,18 +29,6 @@ e_sarda = {
 				b_arverynn6 = {}
 				b_arverynn7 = {}
 			}
-			c_vels_bacar = {
-				color={ 40 190 30 }
-				color2={ 255 255 255 }
-
-				b_vels_bacar = {}
-				b_dvasacha = {}
-				b_cesta_brat = {}
-				b_palcesta = {}
-				b_vels_bacar5 = {}
-				b_vels_bacar6 = {}
-				b_vels_bacar7 = {}
-			}
 			c_thromshana = {
 				color={ 40 190 30 }
 				color2={ 255 255 255 }
@@ -54,6 +42,44 @@ e_sarda = {
 				b_thromshana7 = {}
 			}
 		}
+		d_vels_bacar = {
+			color = { 136 244 235 }
+			color2={ 255 255 255 }
+
+			capital = 12 # Vels Bacar
+
+			c_vels_bacar = {
+				color={ 136 244 235 }
+				color2={ 255 255 255 }
+
+				b_vels_bacar = {}
+				b_dvasacha = {}
+				b_cesta_brat = {}
+				b_palcesta = {}
+				b_vels_bacar5 = {}
+				b_vels_bacar6 = {}
+				b_vels_bacar7 = {}
+			}
+			c_mecpomen = {
+				color={ 136 264 225 }
+				color2={ 255 255 255 }
+
+				b_mecpomen = {}
+				b_mecpomen2 = {}
+				b_mecpomen3 = {}
+				b_mecpomen4 = {}
+				b_mecpomen5 = {}
+				b_mecpomen6 = {}
+				b_mecpomen7 = {}
+			}
+		}
+	}
+	k_stanyrhrada = {
+		color={ 63 154 45 }
+		color2={ 255 255 255 }
+
+		capital = 1 # c_arverynn
+
 		d_vels_amsto = {
 			color = { 189 27 99 }
 			color2={ 255 255 255 }
