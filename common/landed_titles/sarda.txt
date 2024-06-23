@@ -17,7 +17,7 @@ e_sarda = {
 
 			capital = 1 # c_arverynn
 
-			c_arverynn = { # 2404
+			c_arverynn = {
 				color={ 33 184 30 }
 				color2={ 255 255 255 }
 
@@ -40,6 +40,18 @@ e_sarda = {
 				b_thromshana5 = {}
 				b_thromshana6 = {}
 				b_thromshana7 = {}
+			}
+			c_lesthrom = {
+				color={ 53 164 50 }
+				color2={ 255 255 255 }
+
+				b_lesthrom1 = {}
+				b_lesthrom2 = {}
+				b_lesthrom3 = {}
+				b_lesthrom4 = {}
+				b_lesthrom5 = {}
+				b_lesthrom6 = {}
+				b_lesthrom7 = {}
 			}
 		}
 		d_vels_bacar = {

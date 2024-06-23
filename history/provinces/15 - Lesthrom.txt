@@ -1,0 +1,13 @@
+# 15 - Lesthrom
+# County Title
+title = c_lesthrom
+
+# Settlements
+max_settlements = 1
+b_lesthrom1 = castle
+
+# Misc
+culture = yrisarda
+religion = imperial_cult
+
+# History
