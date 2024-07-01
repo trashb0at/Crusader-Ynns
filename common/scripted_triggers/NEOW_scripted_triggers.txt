@@ -2,404 +2,403 @@
 # Scripted Triggers for determine exile
 ######################################
 
-#bhutan_major_cb = {
-#	top_liege = {
-#		OR = {
-#			NOR = {
-#				government = bhutanese_restored_government
-#				government = bhutanese_decayed_government
-#			}
-#			AND = {
-#				trait = bhutan_expansionist
-#				government = bhutanese_restored_government
-#			}
-#		}
-#	}
-#}
-#
-#bhutan_medium_cb = {
-#	top_liege = {
-#		OR = {
-#			NOR = {
-#				government = bhutanese_restored_government
-#				government = bhutanese_decayed_government
-#			}
-#			AND = {
-#				trait = bhutan_open
-#				government = bhutanese_restored_government
-#			}
-#			trait = bhutan_expansionist
-#		}
-#	}
-#}
-#
-#bhutan_minor_cb = {
-#	top_liege = {
-#		OR = {
-#			NOR = {
-#				government = bhutanese_restored_government
-#				government = bhutanese_decayed_government
-#			}
-#			trait = bhutan_open
-#			trait = bhutan_expansionist
-#			government = bhutanese_restored_government
-#		}
-#	}
-#}
+bhutan_major_cb = {
+	top_liege = {
+		OR = {
+			NOR = {
+				government = bhutanese_restored_government
+				government = bhutanese_decayed_government
+			}
+			AND = {
+				trait = bhutan_expansionist
+				government = bhutanese_restored_government
+			}
+		}
+	}
+}
 
-#legatian_guard_events_default_trigger = {
-#	ai = yes
-#	age = 16
-#	is_incapable = no
-#	prisoner = no
-#	culture_group = byzantine
-#	OR = {
-#		religion = hellenic_pagan_reformed
-#		religion = hellenic_pagan
-#	}
-#	has_character_flag = serving_legatian
-#	has_dlc = "The Old Gods"
-#}
+bhutan_medium_cb = {
+	top_liege = {
+		OR = {
+			NOR = {
+				government = bhutanese_restored_government
+				government = bhutanese_decayed_government
+			}
+			AND = {
+				trait = bhutan_open
+				government = bhutanese_restored_government
+			}
+			trait = bhutan_expansionist
+		}
+	}
+}
+
+bhutan_minor_cb = {
+	top_liege = {
+		OR = {
+			NOR = {
+				government = bhutanese_restored_government
+				government = bhutanese_decayed_government
+			}
+			trait = bhutan_open
+			trait = bhutan_expansionist
+			government = bhutanese_restored_government
+		}
+	}
+}
+legatian_guard_events_default_trigger = {
+	ai = yes
+	age = 16
+	is_incapable = no
+	prisoner = no
+	culture_group = byzantine
+	OR = {
+		religion = hellenic_pagan_reformed
+		religion = hellenic_pagan
+	}
+	has_character_flag = serving_legatian
+	has_dlc = "The Old Gods"
+}
 is_real_offmap_governor = {
 	is_offmap_governor = yes
 }
 
-#is_anti_caliph = {
-#	OR = {
-#		has_claim = d_sunni
-#		has_claim = d_wahhabi
-#		has_claim = d_deobandi
-#		has_claim = d_maliki
-#		has_claim = d_mesopotamian
-#		has_claim = d_ismaili
-#		has_claim = d_ahmadiyya
-#		has_claim = e_sufi
-#		has_claim = e_ovlatii
-#	}
-#}
-#uses_agrarian_feudal = {
-#	OR={
-#		culture = moravian
-#		culture = slovak
-#		culture = polish
-#		culture = yola
-#		culture = greater_polish
-#		culture = mazovian
-#		culture = gorale
-#		culture = kashubian
-#		culture = silesian
-#		culture = sazzac
-#		culture = aromanian
-#		culture = istromanian
-#		culture = arberian
-#		culture = arvanitika
-#		culture = arbereshe
-#		culture = yemeni
-#		culture = hadramauti
-#		culture = socotri
-#		culture = omani
-#		culture = sudanese
-#		culture = bedouin_arabic
-#		culture = jibbali
-#		culture = mehri
-#		culture = hejazi
-#		culture = khaliji
-#		culture = greek
-#		culture = makedonas
-#		culture = macedonian
-#		culture = pontian
-#		culture = tsakonian
-#		culture = rumca
-#		culture = cypriote
-#		culture = grekter
-#		culture = chechen
-#		culture = circassian
-#		culture = avar
-#		culture = scottish
-#		culture = koryo_saram
-#		culture = guinean
-#		culture = congolese
-#		culture = senufo
-#		culture = mossi
-#		culture = gourma
-#		culture = nigeren
-#		culture = icelander
-#		culture = ulch
-#		culture = nanai
-#		culture = aleut
-#		culture = itelmen
-#		culture = munda
-#		culture = traveller
-#		culture = manx
-#		culture = aeslabh
-#		culture = irish
-#		culture = high_irish
-#		culture = munsterian
-#		culture = ulsterian
-#		culture = maltese
-#		culture = corsu
-#		culture = sard
-#		culture = sicilian
-#		culture = neapolitan
-#		culture = pugliese
-#		culture = griko
-#		culture = croatian
-#		culture = serbian
-#		culture = bunjevci
-#		culture = montenegrin
-#		culture = bulgarian
-#		culture = bosnian
-#		culture = jugoslavi
-#		culture = iraqi
-#		culture = assyrian
-#		culture = aramaic
-#		culture = mandaeans
-#		culture = babylonian
-#		culture = hiligaynon
-#		culture = cebuano
-#		culture = ilocano
-#		culture = bicol
-#		culture = cuyanyo
-#		culture = tausug
-#		culture = yakan
-#		culture = tagalog
-#		culture = waray
-#		culture = dabaw
-#		culture = kamayo
-#		culture = kalagan
-#		culture = manobo
-#		culture = tandaganon
-#		culture = butuan
-#		culture = subanon
-#		culture = talaud
-#		culture = minhasa
-#		culture = mongondow
-#		culture = hulontalo
-#		culture = bunda
-#		culture = bintauna
-#		culture = vuolo
-#		culture = maranao
-#		culture = maguindanao
-#		culture = tboli
-#		culture_group = maghreb_arabic
-#		culture_group = timoric
-#		culture_group = west_papuan
-#		culture_group = abun_mpuric
-#		culture_group = papuan
-#		culture_group = mande
-#		culture_group = chadic
-#		culture_group = far_east_slavic
-#		culture_group = east_slavic
-#		culture_group = central_slavic
-#		culture_group = magyar
-#		culture_group = ob_ugric
-#		culture_group = samoyedic
-#		culture_group = abbala_arabic
-#		culture_group = afroatlantic
-#		culture_group = arghu
-#		culture_group = baltic
-#		culture_group = berber
-#		culture_group = salic
-#		culture_group = tanic
-#		culture_group = digaric
-#		culture_group = manipuric
-#		culture_group = cushitic
-#		culture_group = eastern_dravidian_group
-#		culture_group = eastern_sudanic
-#		culture_group = far_west_indo_aryan_group
-#		culture_group = finno_ugric
-#		culture_group = esperantic
-#		culture_group = karluk
-#		culture_group = kipchak
-#		culture_group = mongolic
-#		culture_group = nilotic
-#		culture_group = northern_dravidian_group
-#		culture_group = oghur
-#		culture_group = oghuz
-#		culture_group = saharan
-#		culture_group = southern_dravidian_group
-#		culture_group = north_west_indo_aryan_group
-#		culture_group = eastern_indo_aryan_group
-#		culture_group = yenisean
-#	}
-#}
-#uses_theocratic_feudal = {
-#	OR={
-#		AND = {
-#			OR = {
-#				culture_group = tibetan_group
-#				culture_group = tanic
-#				culture_group = digaric
-#				culture = nepali
-#			}
-#			religion_group = buddhist_group
-#		}
-#		has_religion_feature = religion_monastic
-#		has_religion_feature = religion_feature_neoncult
-#		religion = jun_kokoro_ha
-#		religion = celtic_pagan
-#		religion = celtic_pagan_reformed
-#		religion = donyipolo
-#		religion = kiratist
-#		religion = druze
-#		religion = alawite
-#		religion = quaker
-#		religion = bon
-#		religion = mattaism
-#		religion = bon_reformed
-#		religion = shaivasiddhanta
-#		religion = haymanot
-#		religion = neodonatists
-#		religion = osvicenism
-#		religion = neoncult
-#		religion = neoncult_reformed
-#		AND = {
-#			primary_title = {
-#				OR = {
-#					title = k_athos		
-#					title = d_athos
-#				}				
-#			}
-#			OR = {
-#				religion = orthodox
-#				religion = marblists
-#				any_owned_bloodline = {
-#					has_bloodline_flag = athos_blood
-#				}
-#			}
-#		}
-#		AND = {
-#			top_liege = {
-#				primary_title = {
-#					OR = {
-#						title = k_athos
-#						title = d_athos
-#					}
-#				}
-#				OR = {
-#					religion = orthodox
-#					religion = marblists
-#					any_owned_bloodline = {
-#						has_bloodline_flag = athos_blood
-#					}
-#				}
-#			}
-#			OR = {
-#				religion = orthodox
-#				religion = marblists
-#				any_owned_bloodline = {
-#					has_bloodline_flag = athos_blood
-#				}
-#			}
-#		}
-#	}
-#	NOR = {
-#		has_religion_feature = religion_ritual_sacrifice
-#		has_religion_feature = religion_feature_satsana_phi
-#	}
-#}
-#uses_zodiacs = {
-#	OR={
-#		religion = starist_pagan
-#		religion = starist_pagan_reformed
-#		religion = hellenic_pagan
-#		religion = hellenic_pagan_reformed
-#		has_religion_feature = religion_astrology
-#		religion = arcane
-#		religion = espiritista
-#		religion = raelian
-#		religion = thelemic_reformed
-#		religion = theosophy
-#		religion = summer_queen
-#		religion = thelemic
-#		religion = orange_king
-#		religion = nousthreskeia_reformed
-#		religion = nousthreskeia
-#		religion = vostokist
-#		religion = druze
-#		religion = alawite
-#		religion = neo_zorvanite
-#		religion = poseidonian
-#		religion = mandaeanism
-#		has_religion_feature = religion_feature_folklorist_2
-#	}
-#}
-#doesnt_holds_special_empire = {
-#	custom_tooltip = {
-#		text = does_not_hold_special_empire
-#		NOT = {
-#			any_demesne_title = {
-#				OR = {
-#					title = e_british_india
-#					title = e_zapadoslavia
-#					title = e_great_russia
-#					title = e_cccp
-#					title = e_european_union
-#					title = e_austria_hungary
-#					title = e_bhutan
-#					title = e_numenor
-#					title = e_india
-#					title = e_sikh_empire
-#					title = e_khanist
-#					title = e_west_korea
-#					title = e_mann
-#					title = e_byzantium
-#					title = e_bactria
-#					title = e_macedonia
-#					title = e_austria_romaia
-#					title = e_roman_empire
-#					title = e_shangri_la
-#					title = e_ruthenia
-#					title = e_karnataka
-#					title = e_german_confederation
-#					title = e_aegean
-#					title = e_al-andalus
-#					title = e_droid
-#					title = e_druze
-#					title = e_latin_empire
-#					title = e_ottoman
-#					title = e_atlantis
-#					title = e_zion
-#					title = e_maoist
-#					title = e_roman_republic
-#					title = e_russian_republic
-#					title = e_hellenic_republic
-#					title = e_turkish_republic
-#					title = e_centcom
-#					title = e_kuhjungs
-#					title = e_gnostic
-#					title = e_assyria
-#					title = e_babylon
-#					title = e_lusitania
-#					title = e_hui
-#					title = e_heavenly
-#					title = e_hcm
-#					title = e_aragon
-#					title = e_caucasia
-#					title = e_konkani
-#					title = e_swedish
-#					title = e_bulgaria
-#					title = e_yuan
-#					title = e_baltic
-#					title = e_spain_t
-#					title = e_norway
-#					title = e_marblists
-#					title = e_bengal
-#					title = e_neodonatists
-#					title = e_ovlatii
-#					title = e_taoist
-#					title = e_white_lotus
-#					title = e_tridemism
-#					title = e_dvipantara
-#					title = e_wuxia
-#					title = e_legalist
-#					title = e_utsmaniyah
-#					title = e_tang
-#				}
-#			}
-#		}
-#	}
-#}
+is_anti_caliph = {
+	OR = {
+		has_claim = d_sunni
+		has_claim = d_wahhabi
+		has_claim = d_deobandi
+		has_claim = d_maliki
+		has_claim = d_mesopotamian
+		has_claim = d_ismaili
+		has_claim = d_ahmadiyya
+		has_claim = e_sufi
+		has_claim = e_ovlatii
+	}
+}
+uses_agrarian_feudal = {
+	OR={
+		culture = moravian
+		culture = slovak
+		culture = polish
+		culture = yola
+		culture = greater_polish
+		culture = mazovian
+		culture = gorale
+		culture = kashubian
+		culture = silesian
+		culture = sazzac
+		culture = aromanian
+		culture = istromanian
+		culture = arberian
+		culture = arvanitika
+		culture = arbereshe
+		culture = yemeni
+		culture = hadramauti
+		culture = socotri
+		culture = omani
+		culture = sudanese
+		culture = bedouin_arabic
+		culture = jibbali
+		culture = mehri
+		culture = hejazi
+		culture = khaliji
+		culture = greek
+		culture = makedonas
+		culture = macedonian
+		culture = pontian
+		culture = tsakonian
+		culture = rumca
+		culture = cypriote
+		culture = grekter
+		culture = chechen
+		culture = circassian
+		culture = avar
+		culture = scottish
+		culture = koryo_saram
+		culture = guinean
+		culture = congolese
+		culture = senufo
+		culture = mossi
+		culture = gourma
+		culture = nigeren
+		culture = icelander
+		culture = ulch
+		culture = nanai
+		culture = aleut
+		culture = itelmen
+		culture = munda
+		culture = traveller
+		culture = manx
+		culture = aeslabh
+		culture = irish
+		culture = high_irish
+		culture = munsterian
+		culture = ulsterian
+		culture = maltese
+		culture = corsu
+		culture = sard
+		culture = sicilian
+		culture = neapolitan
+		culture = pugliese
+		culture = griko
+		culture = croatian
+		culture = serbian
+		culture = bunjevci
+		culture = montenegrin
+		culture = bulgarian
+		culture = bosnian
+		culture = jugoslavi
+		culture = iraqi
+		culture = assyrian
+		culture = aramaic
+		culture = mandaeans
+		culture = babylonian
+		culture = hiligaynon
+		culture = cebuano
+		culture = ilocano
+		culture = bicol
+		culture = cuyanyo
+		culture = tausug
+		culture = yakan
+		culture = tagalog
+		culture = waray
+		culture = dabaw
+		culture = kamayo
+		culture = kalagan
+		culture = manobo
+		culture = tandaganon
+		culture = butuan
+		culture = subanon
+		culture = talaud
+		culture = minhasa
+		culture = mongondow
+		culture = hulontalo
+		culture = bunda
+		culture = bintauna
+		culture = vuolo
+		culture = maranao
+		culture = maguindanao
+		culture = tboli
+		culture_group = maghreb_arabic
+		culture_group = timoric
+		culture_group = west_papuan
+		culture_group = abun_mpuric
+		culture_group = papuan
+		culture_group = mande
+		culture_group = chadic
+		culture_group = far_east_slavic
+		culture_group = east_slavic
+		culture_group = central_slavic
+		culture_group = magyar
+		culture_group = ob_ugric
+		culture_group = samoyedic
+		culture_group = abbala_arabic
+		culture_group = afroatlantic
+		culture_group = arghu
+		culture_group = baltic
+		culture_group = berber
+		culture_group = salic
+		culture_group = tanic
+		culture_group = digaric
+		culture_group = manipuric
+		culture_group = cushitic
+		culture_group = eastern_dravidian_group
+		culture_group = eastern_sudanic
+		culture_group = far_west_indo_aryan_group
+		culture_group = finno_ugric
+		culture_group = esperantic
+		culture_group = karluk
+		culture_group = kipchak
+		culture_group = mongolic
+		culture_group = nilotic
+		culture_group = northern_dravidian_group
+		culture_group = oghur
+		culture_group = oghuz
+		culture_group = saharan
+		culture_group = southern_dravidian_group
+		culture_group = north_west_indo_aryan_group
+		culture_group = eastern_indo_aryan_group
+		culture_group = yenisean
+	}
+}
+uses_theocratic_feudal = {
+	OR={
+		AND = {
+			OR = {
+				culture_group = tibetan_group
+				culture_group = tanic
+				culture_group = digaric
+				culture = nepali
+			}
+			religion_group = buddhist_group
+		}
+		has_religion_feature = religion_monastic
+		has_religion_feature = religion_feature_neoncult
+		religion = jun_kokoro_ha
+		religion = celtic_pagan
+		religion = celtic_pagan_reformed
+		religion = donyipolo
+		religion = kiratist
+		religion = druze
+		religion = alawite
+		religion = quaker
+		religion = bon
+		religion = mattaism
+		religion = bon_reformed
+		religion = shaivasiddhanta
+		religion = haymanot
+		religion = neodonatists
+		religion = osvicenism
+		religion = neoncult
+		religion = neoncult_reformed
+		AND = {
+			primary_title = {
+				OR = {
+					title = k_athos		
+					title = d_athos
+				}				
+			}
+			OR = {
+				religion = orthodox
+				religion = marblists
+				any_owned_bloodline = {
+					has_bloodline_flag = athos_blood
+				}
+			}
+		}
+		AND = {
+			top_liege = {
+				primary_title = {
+					OR = {
+						title = k_athos
+						title = d_athos
+					}
+				}
+				OR = {
+					religion = orthodox
+					religion = marblists
+					any_owned_bloodline = {
+						has_bloodline_flag = athos_blood
+					}
+				}
+			}
+			OR = {
+				religion = orthodox
+				religion = marblists
+				any_owned_bloodline = {
+					has_bloodline_flag = athos_blood
+				}
+			}
+		}
+	}
+	NOR = {
+		has_religion_feature = religion_ritual_sacrifice
+		has_religion_feature = religion_feature_satsana_phi
+	}
+}
+uses_zodiacs = {
+	OR={
+		religion = starist_pagan
+		religion = starist_pagan_reformed
+		religion = hellenic_pagan
+		religion = hellenic_pagan_reformed
+		has_religion_feature = religion_astrology
+		religion = arcane
+		religion = espiritista
+		religion = raelian
+		religion = thelemic_reformed
+		religion = theosophy
+		religion = summer_queen
+		religion = thelemic
+		religion = orange_king
+		religion = nousthreskeia_reformed
+		religion = nousthreskeia
+		religion = vostokist
+		religion = druze
+		religion = alawite
+		religion = neo_zorvanite
+		religion = poseidonian
+		religion = mandaeanism
+		has_religion_feature = religion_feature_folklorist_2
+	}
+}
+doesnt_holds_special_empire = {
+	custom_tooltip = {
+		text = does_not_hold_special_empire
+		NOT = {
+			any_demesne_title = {
+				OR = {
+					title = e_british_india
+					title = e_zapadoslavia
+					title = e_great_russia
+					title = e_cccp
+					title = e_european_union
+					title = e_austria_hungary
+					title = e_bhutan
+					title = e_numenor
+					title = e_india
+					title = e_sikh_empire
+					title = e_khanist
+					title = e_west_korea
+					title = e_mann
+					title = e_byzantium
+					title = e_bactria
+					title = e_macedonia
+					title = e_austria_romaia
+					title = e_roman_empire
+					title = e_shangri_la
+					title = e_ruthenia
+					title = e_karnataka
+					title = e_german_confederation
+					title = e_aegean
+					title = e_al-andalus
+					title = e_droid
+					title = e_druze
+					title = e_latin_empire
+					title = e_ottoman
+					title = e_atlantis
+					title = e_zion
+					title = e_maoist
+					title = e_roman_republic
+					title = e_russian_republic
+					title = e_hellenic_republic
+					title = e_turkish_republic
+					title = e_centcom
+					title = e_kuhjungs
+					title = e_gnostic
+					title = e_assyria
+					title = e_babylon
+					title = e_lusitania
+					title = e_hui
+					title = e_heavenly
+					title = e_hcm
+					title = e_aragon
+					title = e_caucasia
+					title = e_konkani
+					title = e_swedish
+					title = e_bulgaria
+					title = e_yuan
+					title = e_baltic
+					title = e_spain_t
+					title = e_norway
+					title = e_marblists
+					title = e_bengal
+					title = e_neodonatists
+					title = e_ovlatii
+					title = e_taoist
+					title = e_white_lotus
+					title = e_tridemism
+					title = e_dvipantara
+					title = e_wuxia
+					title = e_legalist
+					title = e_utsmaniyah
+					title = e_tang
+				}
+			}
+		}
+	}
+}
 form_kingdom_potential = {
 	form_kingdom_without_order_potential = yes
 	NOT = {
@@ -505,55 +504,55 @@ into_diplomacy_trigger = {
 	}
 }
 
-#can_choose_invader_trigger = {
-#	has_game_rule = {
-#		name = invader_nations
-#		value = chosen
-#	}
-#	ai = no
-#}
-#can_plays_as_invader_trigger = {
-#	has_game_rule = {
-#		name = playing_as_invaders
-#		value = on
-#	}
-#	ai = no
-#}
-#should_handle_american_invasion = {
-#	OR = {
-#		has_landed_title = e_britannia
-#		AND = { 
-#			has_landed_title = k_papacy
-#			e_britannia = {
-#				has_holder = no
-#			}
-#		}
-#	}
-#}
-#should_have_byz_elective_trigger = {
-#	OR = { 
-#		title = e_byzantium
-#		title = e_roman_empire
-#		title = e_britannia
-#		title = e_transnistria
-#		title = e_western_transnistria
-#		title = e_ruthenia
-#		title = e_marblists
-#		title = e_bengal
-#		AND = {
-#			title = k_britannia
-#			holder_scope = {
-#				has_landed_title = e_britannia
-#			}
-#		}
-#		AND = {
-#			OR = {
-#				title = e_great_russia
-#				title = d_petrist
-#			}
-#		}
-#	}
-#}
+can_choose_invader_trigger = {
+	has_game_rule = {
+		name = invader_nations
+		value = chosen
+	}
+	ai = no
+}
+can_plays_as_invader_trigger = {
+	has_game_rule = {
+		name = playing_as_invaders
+		value = on
+	}
+	ai = no
+}
+should_handle_american_invasion = {
+	OR = {
+		has_landed_title = e_britannia
+		AND = { 
+			has_landed_title = k_papacy
+			e_britannia = {
+				has_holder = no
+			}
+		}
+	}
+}
+should_have_byz_elective_trigger = {
+	OR = { 
+		title = e_byzantium
+		title = e_roman_empire
+		title = e_britannia
+		title = e_transnistria
+		title = e_western_transnistria
+		title = e_ruthenia
+		title = e_marblists
+		title = e_bengal
+		AND = {
+			title = k_britannia
+			holder_scope = {
+				has_landed_title = e_britannia
+			}
+		}
+		AND = {
+			OR = {
+				title = e_great_russia
+				title = d_petrist
+			}
+		}
+	}
+}
 ROOT_can_press_dejure_claim_trigger = {
 	trigger_if = {
 		limit = {
@@ -632,107 +631,106 @@ ROOT_can_press_dejure_claim_trigger = {
 	}
 }
 
-#centralise_confederation_trigger = {
-#	primary_title = {
-#		has_law = centralization_2
-#		conditional_tooltip = {
-#			trigger = {
-#				NOT = {
-#					has_dlc = "Zeus"
-#				}
-#			}
-#			has_law = crown_authority_4
-#		}
-#		conditional_tooltip = {
-#			trigger = {
-#				has_dlc = "Zeus"
-#			}
-#			has_law = law_voting_power_0
-#		}
-#	}
-#	prestige = 500
-#	ruled_years = 10
-#	war = no
-#}
-#holder_not_confederation_trigger = {
-#	conditional_tooltip = {
-#		trigger = {
-#			holder_scope = { government = confederation_government }
-#		}
-#		holder_scope = {
-#			show_scope_change = no
-#			NOT = { government = confederation_government }
-#		}
-#	}
-#}
-#
-#confederation_title_trigger = {
-#	OR = {
-#		title = e_german_confederation
-#		title = e_karnataka
-#		title = k_cyprus_league
-#		title = k_kimberlian_confederacy
-#		title = e_padania
-#		title = e_aegean
-#		title = e_kedah
-#		title = k_kawthoolei
-#		has_title_flag = is_a_confederacy
-#	}
-#}
+centralise_confederation_trigger = {
+	primary_title = {
+		has_law = centralization_2
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					has_dlc = "Zeus"
+				}
+			}
+			has_law = crown_authority_4
+		}
+		conditional_tooltip = {
+			trigger = {
+				has_dlc = "Zeus"
+			}
+			has_law = law_voting_power_0
+		}
+	}
+	prestige = 500
+	ruled_years = 10
+	war = no
+}
+holder_not_confederation_trigger = {
+	conditional_tooltip = {
+		trigger = {
+			holder_scope = { government = confederation_government }
+		}
+		holder_scope = {
+			show_scope_change = no
+			NOT = { government = confederation_government }
+		}
+	}
+}
 
-#uses_eastern_feudal_trigger = {
-#	OR = {
-#		culture_group = chinese_group
-#		culture_group = south_chinese_group
-#		culture_group = korean_group
-#		culture_group = viet
-#		culture_group = hmong_mien
-#		culture_group = tanjia
-#		culture_group = qiangic
-#		culture_group = northern_thai
-#		religion_group = chinese_traditional_group
-#		religion = xinjiao
-#		religion = jingjiao
-#		religion = maoist
-#		religion = tridemism
-#		religion = mahayana
-#		religion = hmongism
-#	}
-#	NOR = { 
-#		religion = jacobinist	
-#		religion = stalinist
-#		religion = trotskyite
-#		religion = titoist
-#		religion = red_cult
-#		has_religion_feature = religion_ritual_sacrifice
-#		has_religion_feature = religion_feature_satsana_phi
-#	}
-#}
-#uses_japanese_feudal_trigger = {
-#	OR = {
-#		AND = {
-#			culture_group = japan_group
-#			NOT = {
-#				religion = jun_kokoro_ha
-#			}
-#		}
-#		religion = shinto
-#		religion = bushinto
-#		religion = buddhoshinto
-#		religion = ainushinto
-#		religion = shinko
-#		religion = amidism
-#	}
-#}
-#uses_phonocracy_trigger = {
-#	OR = {
-#		has_religion_feature = religion_ritual_sacrifice
-#		has_religion_feature = religion_feature_satsana_phi
-#	}
-#	NOT = {
-#		has_religion_feature = religion_monastic
-#	}
-#}
+confederation_title_trigger = {
+	OR = {
+		title = e_german_confederation
+		title = e_karnataka
+		title = k_cyprus_league
+		title = k_kimberlian_confederacy
+		title = e_padania
+		title = e_aegean
+		title = e_kedah
+		title = k_kawthoolei
+		has_title_flag = is_a_confederacy
+	}
+}
+uses_eastern_feudal_trigger = {
+	OR = {
+		culture_group = chinese_group
+		culture_group = south_chinese_group
+		culture_group = korean_group
+		culture_group = viet
+		culture_group = hmong_mien
+		culture_group = tanjia
+		culture_group = qiangic
+		culture_group = northern_thai
+		religion_group = chinese_traditional_group
+		religion = xinjiao
+		religion = jingjiao
+		religion = maoist
+		religion = tridemism
+		religion = mahayana
+		religion = hmongism
+	}
+	NOR = { 
+		religion = jacobinist	
+		religion = stalinist
+		religion = trotskyite
+		religion = titoist
+		religion = red_cult
+		has_religion_feature = religion_ritual_sacrifice
+		has_religion_feature = religion_feature_satsana_phi
+	}
+}
+uses_japanese_feudal_trigger = {
+	OR = {
+		AND = {
+			culture_group = japan_group
+			NOT = {
+				religion = jun_kokoro_ha
+			}
+		}
+		religion = shinto
+		religion = bushinto
+		religion = buddhoshinto
+		religion = ainushinto
+		religion = shinko
+		religion = amidism
+	}
+}
+uses_phonocracy_trigger = {
+	OR = {
+		has_religion_feature = religion_ritual_sacrifice
+		has_religion_feature = religion_feature_satsana_phi
+	}
+	NOT = {
+		has_religion_feature = religion_monastic
+	}
+}
 
 is_feminist_culture = {
 	culture = sarda
