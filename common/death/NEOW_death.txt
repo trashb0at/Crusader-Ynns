@@ -1,0 +1,31 @@
+death_execution_shocking = {
+	violent = yes
+	long_desc = "DEATH_EXECUTION_SHOCKING"
+	can_nokiller = yes
+	execution = yes
+	sound_list = {
+		female = {
+			"electric_shock_sound_effect"
+		}
+		male = {
+			"electric_shock_sound_effect"
+		}
+	}
+}
+death_massacre = { # Used at the Fatima event chain
+	violent = yes
+	long_desc = "DEATH_BY_MASSACRE"
+	can_nokiller = yes
+	sound_list = {
+		female = {
+			"impaling_female_01"
+			"impaling_female_02"
+			"impaling_female_03"
+		}
+		male = {
+			"impaling_male_01"
+			"impaling_male_02"
+			"impaling_male_03"
+		}
+	}
+}
