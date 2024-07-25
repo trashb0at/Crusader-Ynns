@@ -1,0 +1,14 @@
+# 20 - Stanyrhrada
+
+# County Title
+title = c_stanyrhrada
+
+# Settlements
+max_settlements = 1
+b_stanyrhrada1 = castle
+
+# Misc
+culture = yrisarda
+religion = imperial_cult
+
+# History

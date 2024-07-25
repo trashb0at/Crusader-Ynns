@@ -90,7 +90,7 @@ e_sarda = {
 		color={ 63 154 45 }
 		color2={ 255 255 255 }
 
-		capital = 1 # c_arverynn
+		capital = 20 #stanyr 
 
 		d_vels_amsto = {
 			color = { 189 27 99 }
@@ -121,6 +121,25 @@ e_sarda = {
 				b_leshtrom5 = {}
 				b_leshtrom6 = {}
 				b_leshtrom7 = {}
+			}
+		}
+		d_stanyrhrada = {
+			color={ 0 78 68 }
+			color2={ 255 255 255 }
+			
+			capital = 20 # stanyr
+
+			c_stanyrhrada = {
+				color={ 0 78 68 }
+				color2={ 255 255 255 }
+
+				b_stanyrhrada1 = {}
+				b_stanyrhrada2 = {}
+				b_stanyrhrada3 = {}
+				b_stanyrhrada4 = {}
+				b_stanyrhrada5 = {}
+				b_stanyrhrada6 = {}
+				b_stanyrhrada7 = {}
 			}
 		}
 	}

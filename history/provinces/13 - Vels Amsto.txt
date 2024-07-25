@@ -1,0 +1,14 @@
+# 13 - Vels Amsto
+
+# County Title
+title = c_vels_amsto
+
+# Settlements
+max_settlements = 1
+b_vels_amsto1 = castle
+
+# Misc
+culture = yrisarda
+religion = imperial_cult
+
+# History
