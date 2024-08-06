@@ -1,0 +1,14 @@
+# 22 - Zakarozden
+
+# County Title
+title = c_zakarozden
+
+# Settlements
+max_settlements = 1
+c_zakarozden1 = castle
+
+# Misc
+culture = yrisarda
+religion = imperial_cult
+
+# History

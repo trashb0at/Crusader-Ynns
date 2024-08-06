@@ -47,3 +47,16 @@
 		death=yes
 	}
 }
+
+5={
+	name="Yeboran"
+	religion="imperial_cult"
+	culture="yrisarda"	
+    dynasty=5
+	1176.8.21={
+		birth=yes
+	}	
+	1260.1.1={
+		death=yes
+	}
+}

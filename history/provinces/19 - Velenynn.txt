@@ -1,0 +1,14 @@
+# 19 - Velenynn
+
+# County Title
+title = c_velenynn
+
+# Settlements
+max_settlements = 1
+b_velenynn1 = castle
+
+# Misc
+culture = yrisarda
+religion = imperial_cult
+
+# History

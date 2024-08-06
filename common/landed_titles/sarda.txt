@@ -110,17 +110,29 @@ e_sarda = {
 				b_vels_amsto6 = {}
 				b_vels_amsto7 = {}
 			}
-			c_leshtrom = {
+			c_velenynn = {
 				color={ 40 190 30 }
 				color2={ 255 255 255 }
 
-				b_leshtrom1 = {}
-				b_leshtrom2 = {}
-				b_leshtrom3 = {}
-				b_leshtrom4 = {}
-				b_leshtrom5 = {}
-				b_leshtrom6 = {}
-				b_leshtrom7 = {}
+				b_velenynn1 = {}
+				b_velenynn2 = {}
+				b_velenynn3 = {}
+				b_velenynn4 = {}
+				b_velenynn5 = {}
+				b_velenynn6 = {}
+				b_velenynn7 = {}
+			}
+			c_zakarozden = {
+				color={ 40 190 30 }
+				color2={ 255 255 255 }
+
+				b_zakarozden1 = {}
+				b_zakarozden2 = {}
+				b_zakarozden3 = {}
+				b_zakarozden4 = {}
+				b_zakarozden5 = {}
+				b_zakarozden6 = {}
+				b_zakarozden7 = {}
 			}
 		}
 		d_stanyrhrada = {
