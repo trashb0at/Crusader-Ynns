@@ -1,0 +1,14 @@
+# 21 - Kysearuges
+
+# County Title
+title = c_kysearuges
+
+# Settlements
+max_settlements = 1
+c_kysearuges1 = castle
+
+# Misc
+culture = yrisarda
+religion = imperial_cult
+
+# History

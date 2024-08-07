@@ -134,6 +134,18 @@ e_sarda = {
 				b_zakarozden6 = {}
 				b_zakarozden7 = {}
 			}
+			c_kysearuges = {
+				color={ 40 190 30 }
+				color2={ 255 255 255 }
+
+				b_kysearuges1 = {}
+				b_kysearuges2 = {}
+				b_kysearuges3 = {}
+				b_kysearuges4 = {}
+				b_kysearuges5 = {}
+				b_kysearuges6 = {}
+				b_kysearuges7 = {}
+			}
 		}
 		d_stanyrhrada = {
 			color={ 0 78 68 }
