@@ -157,16 +157,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = {
-			text = EVTOPTC37001 # Mention a Church career...
-			trigger = { religion_group = christian }
-		}
-		name = {
-			text = EVTOPTD37001 # Diplomatically refuse
-			trigger = {
-				NOT = { religion_group = christian }
-			}
-		}
+		name = EVTOPTD37001 # Diplomatically refuse
 
 		tooltip_info = diplomacy
 
@@ -364,10 +355,6 @@ character_event = {
 				trait = ambitious
 			}
 			mult_modifier = {
-				factor = 5.0
-				religion_group = muslim
-			}
-			mult_modifier = {
 				factor = 0.25
 				trait = slothful
 			}
@@ -540,10 +527,6 @@ character_event = {
 			mult_modifier = {
 				factor = 2.5
 				trait = ambitious
-			}
-			mult_modifier = {
-				factor = 5.0
-				religion_group = muslim
 			}
 			mult_modifier = {
 				factor = 0.25
@@ -906,98 +889,98 @@ character_event = {
 }
 
 # Liege responds to marriage request
-character_event = {
-	id = 37051
-	desc = EVTDESC37051
-	picture = GFX_evt_marriage
-
-	is_triggered_only = yes
-
-	ai = no
-	religion_group = christian
-	only_capable = yes
-	prisoner = no
-	war = no
-	trigger = {
-		event_target:target_relative = {
-			is_close_relative = ROOT
-			vassal_of = ROOT
-			has_ambition = obj_get_married
-			religion_group = christian
-			is_ruler = no
-			is_marriage_adult = yes
-			practical_age < 40
-			prisoner = no
-			is_betrothed = no
-			is_consort = no
-			is_married = no
-			is_incapable = no
-
-			NOR = {
-				trait = bastard
-				has_minor_title = title_regent
-				has_character_flag = flag_denied_marriage
-				has_character_flag = flag_promised_marriage
-			}
-		}
-	}
-
-	fail_trigger_effect = {
-		if = {
-			limit = {
-				ai = no
-				religion_group = christian
-
-				event_target:target_relative = {
-					is_close_relative = ROOT
-					vassal_of = ROOT
-					has_ambition = obj_get_married
-					religion_group = christian
-					is_ruler = no
-					is_marriage_adult = yes
-					practical_age < 40
-					is_betrothed = no
-
-					NOR = {
-						trait = bastard
-						has_character_flag = flag_denied_marriage
-						has_character_flag = flag_promised_marriage
-					}
-				}
-			}
-
-			repeat_event = {
-				id = 37051
-				months = 2
-			}
-		}
-	}
-
-	option = {
-		name = EVTOPTA37051 # Promise that you'll arrange it
-
-		event_target:target_relative = {
-			show_scope_change = no
-
-			character_event = {
-				id = 37052
-				tooltip = EVTTOOLTIP37052
-			}
-		}
-	}
-	option = {
-		name = EVTOPTB37051 # Mention a Church career...
-
-		event_target:target_relative = {
-			show_scope_change = no
-
-			character_event = {
-				id = 37053
-				tooltip = EVTTOOLTIP37053
-			}
-		}
-	}
-}
+#character_event = {
+#	id = 37051
+#	desc = EVTDESC37051
+#	picture = GFX_evt_marriage
+#
+#	is_triggered_only = yes
+#
+#	ai = no
+#	religion_group = christian
+#	only_capable = yes
+#	prisoner = no
+#	war = no
+#	trigger = {
+#		event_target:target_relative = {
+#			is_close_relative = ROOT
+#			vassal_of = ROOT
+#			has_ambition = obj_get_married
+#			religion_group = christian
+#			is_ruler = no
+#			is_marriage_adult = yes
+#			practical_age < 40
+#			prisoner = no
+#			is_betrothed = no
+#			is_consort = no
+#			is_married = no
+#			is_incapable = no
+#
+#			NOR = {
+#				trait = bastard
+#				has_minor_title = title_regent
+#				has_character_flag = flag_denied_marriage
+#				has_character_flag = flag_promised_marriage
+#			}
+#		}
+#	}
+#
+#	fail_trigger_effect = {
+#		if = {
+#			limit = {
+#				ai = no
+#				religion_group = christian
+#
+#				event_target:target_relative = {
+#					is_close_relative = ROOT
+#					vassal_of = ROOT
+#					has_ambition = obj_get_married
+#					religion_group = christian
+#					is_ruler = no
+#					is_marriage_adult = yes
+#					practical_age < 40
+#					is_betrothed = no
+#
+#					NOR = {
+#						trait = bastard
+#						has_character_flag = flag_denied_marriage
+#						has_character_flag = flag_promised_marriage
+#					}
+#				}
+#			}
+#
+#			repeat_event = {
+#				id = 37051
+#				months = 2
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = EVTOPTA37051 # Promise that you'll arrange it
+#
+#		event_target:target_relative = {
+#			show_scope_change = no
+#
+#			character_event = {
+#				id = 37052
+#				tooltip = EVTTOOLTIP37052
+#			}
+#		}
+#	}
+#	option = {
+#		name = EVTOPTB37051 # Mention a Church career...
+#
+#		event_target:target_relative = {
+#			show_scope_change = no
+#
+#			character_event = {
+#				id = 37053
+#				tooltip = EVTTOOLTIP37053
+#			}
+#		}
+#	}
+#}
 
 # The relative is delighted
 character_event = {
@@ -1190,36 +1173,6 @@ character_event = {
 			}
 
 			add_spouse = FROM
-		}
-	}
-	option = {
-		name = EVTOPTB37055 # You're off to the monastery!
-		trigger = {
-			religion_group = christian
-			FROM = {
-				religion_group = christian
-				is_married = no
-			}
-			any_realm_lord = {
-				is_theocracy = yes
-			}
-		}
-		random_realm_lord = {
-			show_scope_change = no
-			limit = { is_theocracy = yes }
-			reverse_banish = FROM
-		}
-
-		FROM = {
-			show_scope_change = no
-			cancel_ambition = yes
-			remove_character_modifier = promised_a_marriage
-			clr_character_flag = flag_promised_marriage
-			opinion = {
-				name = opinion_sent_to_church
-				who = ROOT
-				years = 10
-			}
 		}
 	}
 	option = {
